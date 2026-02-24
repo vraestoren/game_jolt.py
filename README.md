@@ -3,8 +3,9 @@ Web-API for [gamejolt.com](https://gamejolt.com/game-api) website game-api with 
 
 ## Example
 ```python
-import game_jolt
-game_jolt = game_jolt.GameJolt(
+from game_jolt import GameJolt
+
+game_jolt = GameJolt(
 	game_id="",
 	username="",
 	user_token="",
