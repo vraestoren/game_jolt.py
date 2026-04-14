@@ -3,7 +3,8 @@ from requests import Session
 from urllib.parse import urlencode
 
 class GameJolt:
-	def __init__(self, game_id: int, username: str, user_token: str, private_key: str) -> None:
+	def __init__(
+			self, game_id: int, username: str, user_token: str, private_key: str) -> None:
 		self.api = "https://api.gamejolt.com/api/game/v1_2"
 		self.session = Session()
 		self.session.headers = {
